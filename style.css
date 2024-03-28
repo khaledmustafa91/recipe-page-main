@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'young-serif';
+  src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+@font-face {
+  font-family: 'outfit-variable-font';
+  src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-color: #f3e5d8;
+}
+.main-content {
+  max-width: 500px;
+  margin: auto;
+  font-family: 'outfit-variable-font';
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+  font-size: small;
+}
+.header-image {
+  border-radius: 10px;
+  height: inherit;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.preparation {
+  background-color: #fff7fc;
+  padding: 20px;
+}
+.preparation li {
+  color: #94697c;
+}
+.preparation li span {
+  color: #787572;
+}
+.preparation h3 {
+  color: #75425a;
+}
+.section-headers {
+  color: #683c2d;
+  font-family: 'young-serif';
+}
+.instructions li {
+  color: #683c2d;
+}
+.instructions li span {
+  color: #787572;
+}
+.ingredients li {
+  color: #683c2d;
+}
+/* .ingredients li span {
+        color: #000;
+      } */
+.grams {
+  color: #683c2d;
+}
+p {
+  color: #787572;
+}
+span {
+  color: #787572;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: #787572;
+}
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* Border for each cell */
+}
+tr:last-child td {
+  border-bottom: none; /* Remove border from the last row */
+}
+hr {
+  border: 1px solid #ddd;
+}
+ul {
+  padding-inline-start: 15px;
+}
+ol {
+  padding-inline-start: 15px;
+}
+.ingredients li {
+  margin-bottom: 10px;
+}
